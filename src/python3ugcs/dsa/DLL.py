@@ -40,7 +40,8 @@ class DoublyLinkedList:
             print(ptr.data, end = '')
             ptr = ptr.next
             if ptr != None:
-                print(sep)
+                print(sep, end = '')
+        print()
     
     # reverse the list
     def reverse(self):
